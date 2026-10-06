@@ -2612,7 +2612,7 @@ base_cfg=Config(
     param_extension_mode="tile",
 )
 
-N_LIST=[50]  # sector correlation robustness; edit here if needed
+N_LIST=[5,10,20,50]  # sector correlation robustness; edit here if needed
 RUN_CORRELATION_SWEEP=False  # True => extra beta-by-dimension retraining (VERY expensive)
 CORRELATION_BETA_LIST=(0.0,0.2,0.5,0.7)
 all_results={}
